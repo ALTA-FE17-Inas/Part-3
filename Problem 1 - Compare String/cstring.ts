@@ -18,7 +18,7 @@ function compareString(a: string, b: string): string {
                     y++;
                 }
 
-                // Perbarui hasil jika substring umum lebih panjang dari hasil saat ini
+                // Perbarui hasil jika substring lebih panjang dari hasil saat ini
                 if (commonSubstring.length > result.length) {
                     result = commonSubstring;
                 }
